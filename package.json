@@ -1,0 +1,19 @@
+{
+  "name": "hwoarang",
+  "version": "1.0.0",
+  "description": "Objection.js learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onildof/hwoarang.git"
+  },
+  "author": "Onildo Luciano de Souza Ferraz Filho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onildof/hwoarang/issues"
+  },
+  "homepage": "https://github.com/onildof/hwoarang#readme"
+}

@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/onildof/hwoarang/issues"
   },
-  "homepage": "https://github.com/onildof/hwoarang#readme"
+  "homepage": "https://github.com/onildof/hwoarang#readme",
+  "dependencies": {
+    "knex": "^2.0.0",
+    "objection": "^3.0.1",
+    "pg": "^8.7.3"
+  }
 }

@@ -17,7 +17,7 @@ app.use(async (ctx, next) => {
 })
 
 // response
-app.use(async ctx => { 
+app.use(async (ctx) => {
   // ctx.request; // is a Koa Request
   // ctx.response; // is a Koa Response
   // ctx.state.user = await User.find(id); // namespace for passing between middlewares
@@ -25,7 +25,7 @@ app.use(async ctx => {
   // ctx.throw([status], [msg], [properties]) // lança um erro e Koa responde de acordo
   // ctx.assert(ctx.state.user, 401, 'User not found. Please login!'); // faz uma assertion no primeiro parâmetro e lança um erro se der falso
 
-/*
+  /*
     Request aliases
 
     ctx.header
@@ -81,7 +81,7 @@ app.use(async ctx => {
     ctx.lastModified=
     ctx.etag=
 */
-/*
+  /*
   // se certifica de que a requisição para esta origin é de uma imagem
   if (ctx.is('image/*')) {
     // process

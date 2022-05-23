@@ -18,6 +18,7 @@
   "homepage": "https://github.com/onildof/hwoarang#readme",
   "dependencies": {
     "knex": "^2.0.0",
+    "koa": "^2.13.4",
     "objection": "^3.0.1",
     "pg": "^8.7.3"
   }
